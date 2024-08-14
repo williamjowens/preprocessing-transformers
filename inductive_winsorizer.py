@@ -5,7 +5,7 @@ import pandas as pd
 
 class InductiveWinsorizer(BaseEstimator, TransformerMixin):
     """
-    A custom transformer that performs inductive winsorization on numerical data, clipping outliers
+    A transformer that performs inductive winsorization on numerical data, clipping outliers
     based on specified percentile limits. This transformer can handle Pandas DataFrames, Series, and NumPy arrays.
 
     Parameters

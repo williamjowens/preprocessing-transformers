@@ -6,7 +6,7 @@ import holidays
 
 class DateTimeFeatures(BaseEstimator, TransformerMixin):
     """
-    A custom transformer that extracts various datetime features from a specified datetime column or index in the data.
+    A transformer that extracts various datetime features from a specified datetime column or index in the data.
     This transformer can handle Pandas DataFrames, Series, and NumPy arrays, and can output the transformed data
     in the desired format.
 

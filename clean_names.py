@@ -4,7 +4,7 @@ from sklearn.base import TransformerMixin
 
 class CleanFeatureNames(TransformerMixin):
     """
-    Transformer that cleans feature names by replacing specified characters or strings
+    A transformer that cleans feature names by replacing specified characters or strings
     that may not be allowed by certain models, such as XGBoost.
 
     By default, this transformer replaces '[' with '(' and ']' with ')', but users can specify

@@ -7,7 +7,7 @@ from sklearn.utils._openmp_helpers import _openmp_effective_n_threads
 
 class GelmanScaler(OneToOneFeatureMixin, TransformerMixin, BaseEstimator):
     """
-    A scikit-learn compatible transformer that applies Gelman scaling to numerical features.
+    A transformer that applies Gelman scaling to numerical features.
 
     Gelman scaling standardizes each feature by centering it to have a mean of zero and
     scaling it by dividing by two times its standard deviation. This scaling technique
